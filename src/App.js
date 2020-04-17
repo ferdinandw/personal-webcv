@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Header from './components/Content/home/header'
-import Article from './components/Content/article/article'
+import Article from './components/Content/article/index'
 import Portfolio from './components/Content/portfolio/portfolio'
 import Hire from './components/Content/hire/hire'
 function App() {
