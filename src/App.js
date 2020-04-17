@@ -8,6 +8,7 @@ import Header from './components/Content/home/header'
 import Article from './components/Content/article/index'
 import Portfolio from './components/Content/portfolio/portfolio'
 import Hire from './components/Content/hire/hire'
+import Copyright from "./components/Content/home/footer"
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
         <Header/>
         </Route>
       </Switch>
+      <Copyright/>
       </Container>
     </Router>
       
