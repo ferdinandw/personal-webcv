@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import {useParams, useRouteMatch } from 'react-router-dom';
+import {useParams, useRouteMatch, Link, Switch, Route } from 'react-router-dom';
 import axios from 'axios';
+import Article from './index'
 
 const ReadMore = () => {
     const { id } = useParams();
+    let {path, url } = useRouteMatch();
     let [data, setData] = useState({
         images: '',
         destinationName: '',
@@ -40,6 +42,13 @@ const ReadMore = () => {
                     <p>
                     Description: {data.description}
                     </p>
+                    <Switch>
+                    <Link className="btn btn-primary" to="/article">Back</Link>
+                    <Route path ="/article">
+                        <Article/>
+                    </Route>
+                    </Switch>
+                   
                 </div>
             </div>
         </div>
