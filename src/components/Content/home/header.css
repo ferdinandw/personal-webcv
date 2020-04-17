@@ -1,5 +1,5 @@
 .bg1{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/thumb-1920-600528.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/thumb-1920-600528.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

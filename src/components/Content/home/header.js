@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './header.css'
-import foto from './img/pp.jpeg'
-import icon1 from './img/css.png'
+import foto from '../img/pp.jpeg'
+import icon1 from '../img/css.png'
 import { Container, Jumbotron, Col, Row} from 'react-bootstrap'
 export default class Header1 extends Component {
     render() {
